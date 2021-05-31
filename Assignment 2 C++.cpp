@@ -1,3 +1,5 @@
+//Write a c++ program to make a simple calculator
+
 #include<iostream>
 #include<stdlib.h>
 
