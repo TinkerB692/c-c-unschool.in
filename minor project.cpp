@@ -1,3 +1,4 @@
+//Write a c program to make a simple Rock, Paper and Scissor game
 
 #include <stdio.h>
 #include<time.h>
@@ -6,10 +7,10 @@
 int main()
 {
     int you, computer;
-    printf("Welcome to Stone-Paper-Scissor game");
+    printf("Welcome to Rock-Paper-Scissor game");
 do
     {
-    printf("\nTo play the game:\n Enter 1 for Stone, 2 for Paper, 3 for Scissors, 4 to quit \n");
+    printf("\nTo play the game:\n Enter 1 for Rock, 2 for Paper, 3 for Scissors, 4 to quit \n");
     scanf("%d", &you);
     srand(time(NULL));
     computer=1+rand()%3;
