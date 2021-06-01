@@ -20,11 +20,11 @@ int main()
 		cout<<"\nNo. of chances left:"<<tries;
 
 		if (guess > num)
-			cout << "\nToo high!Enter a number lower than "<<guess<<"\n";
+			cout << "\n\nToo high!Enter a number lower than "<<guess<<"\n";
 		else if (guess < num)
 			cout << "\n\nToo low!Enter a number higher than "<<guess<<"\n";
 		else
-			cout << "\nCorrect! You Won!!\n";
+			cout << "\n\nCorrect! You Won!!\n";
 	}
 	while (tries != 0 && guess!=num);
 	cout<<"\nGame over!!\n";
