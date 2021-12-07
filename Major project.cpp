@@ -28,7 +28,17 @@ int main()
 	}
 	while (tries != 0 && guess!=num);
 	cout<<"\nGame over!!\n";
-
-
+	cout<<"Do you want to play again(y/n):";
+	cin>>ans;
+	if(ans=='y')
+	{
+		return main();
+	}
+	else
+	{
+		cout<<"\nGame Over!!";
+		
+	}
 	return 0;
 }
+
